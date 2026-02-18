@@ -60,6 +60,7 @@ QoQ Revenue Growth % =
 VAR PrevQ = CALCULATE([Won Revenue], DATEADD('Date'[Date], -1, QUARTER))
 RETURN DIVIDE([Won Revenue] - PrevQ, PrevQ)
 <img width="1920" height="1080" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/bf796865-8eeb-43cf-932e-3e1ae3acdbdb" />
+72
 
 🖼 Image 2 — Executive Overview Dashboard
 📌 KPI Summary
@@ -78,6 +79,7 @@ Positive quarterly revenue growth
 
 Revenue concentration among top-performing agents
 <img width="1920" height="1080" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/50339f7c-9dc9-462a-afc9-8925e4c0985c" />
+73
 
 🖼 Image 3 — Sales Team Performance
 👥 Agent-Level Analysis
@@ -101,6 +103,7 @@ Top performers generate disproportionate revenue contribution
 
 📌 Insight: Coaching low win-rate, high-volume agents could significantly improve total revenue.
 <img width="1920" height="1080" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/5fb387a1-ae25-49ae-bbfc-756b8459afde" />
+74
 
 🖼 Image 4 — Product & Pipeline Analysis
 🏷 Win Rate by Product
@@ -137,6 +140,7 @@ Prospecting → 1K
 
 📌 Insight: Significant drop-off between early and mid-stage pipeline.
 <img width="1920" height="1080" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/5b0798d3-7ae1-42cd-87ee-673a8f413abc" />
+75
 
 🖼 Image 5 — Trends Dashboard
 📊 Revenue & Pipeline Trends (Year-Quarter)
@@ -158,6 +162,7 @@ Q4: -6%
 📌 Insight:
 Revenue growth momentum slowed after Q2 spike — pipeline monitoring is critical.
 <img width="1920" height="1080" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/2b0b20d9-0879-4a56-b913-7f21f95ea9bb" />
+76
 
 🖼 Image 6 — Business Recommendations
 🎯 Strategic Recommendations
@@ -184,6 +189,7 @@ Implementing these recommendations can lead to:
 
 🔮 More predictable revenue forecasting
 <img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/c9ad551b-ee3a-4ff8-919d-58d806cbea38" />
+77
 
 🛠 Tools & Technologies
 

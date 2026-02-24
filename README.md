@@ -11,29 +11,6 @@ Identify lagging sales agents
 Analyze quarter-over-quarter revenue trends
 Assess product win rates and pipeline efficiency
 Provide actionable insights to improve revenue outcomes
-
-🧹 Data Quality Issues Identified & Resolved
-Duplicate records in dimension tables
-Missing categorical values (industry, region, sales agent)
-Inconsistent naming conventions for sales stages and regions
-Invalid opportunity values (null or zero)
-Date inconsistencies between created and closed dates
-
-📐 Key DAX Measures
-Base Measures
-Total Opportunities = COUNT(Sales[Opportunity ID])
-Total Pipeline Value = SUM(Sales[Opportunity Value])
-Revenue & Performance
-Won Opportunities = CALCULATE([Total Opportunities], Sales[Stage] = "Closed Won")
-Won Revenue = CALCULATE([Total Pipeline Value], Sales[Stage] = "Closed Won")
-Open Pipeline Value = CALCULATE([Total Pipeline Value], Sales[Stage] IN {"Prospecting","Proposal"})
-Conversion Metrics
-Win Rate = DIVIDE([Won Opportunities], [Total Opportunities])
-Average Deal Size = DIVIDE([Won Revenue], [Won Opportunities])
-Time Intelligence
-QoQ Revenue Growth % =
-VAR PrevQ = CALCULATE([Won Revenue], DATEADD('Date'[Date], -1, QUARTER))
-RETURN DIVIDE([Won Revenue] - PrevQ, PrevQ)
 <img width="1920" height="1080" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/2fab97fa-0bde-4fd2-9ee6-2e8eabe5a502" />
 167
 

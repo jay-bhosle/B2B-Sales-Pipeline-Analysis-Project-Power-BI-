@@ -12,7 +12,7 @@ Analyze quarter-over-quarter revenue trends
 Assess product win rates and pipeline efficiency
 Provide actionable insights to improve revenue outcomes
 <img width="1920" height="1080" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/2fab97fa-0bde-4fd2-9ee6-2e8eabe5a502" />
-167
+1
 
 🖼 Image 2 — Executive Overview Dashboard
 📌 KPI Summary
@@ -28,7 +28,7 @@ Healthy open pipeline supporting future revenue
 Positive quarterly revenue growth
 Revenue concentration among top-performing agents
 <img width="1920" height="1080" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/32ea752a-58c5-4ca2-af29-f250ab285997" />
-168
+2
 
 🖼 Image 3 — Sales Team Performance
 👥 Agent-Level Analysis
@@ -40,7 +40,7 @@ Some agents handle high volume but underperform on win rate
 Top performers generate disproportionate revenue contribution
 📌 Insight: Coaching low win-rate, high-volume agents could significantly improve total revenue.
 <img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/079b25e5-c9ed-4d78-b6f9-a31bc79b240e" />
-169
+3
 
 🖼 Image 4 — Product & Pipeline Analysis
 🏷 Win Rate by Product
@@ -60,7 +60,7 @@ Opportunities by stage:
 Won → 4K, Lost → 2K, Engaging → 2K, Prospecting → 1K
 📌 Insight: Significant drop-off between early and mid-stage pipeline.
 <img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/b4e81e46-2f16-4182-b144-db0210b3038c" />
-171
+4
 
 🖼 Image 5 — Trends Dashboard
 📊 Revenue & Pipeline Trends (Year-Quarter)
@@ -74,7 +74,7 @@ Q2 Growth: +172%, Q3: -3%, Q4: -6%
 📌 Insight:
 Revenue growth momentum slowed after Q2 spike — pipeline monitoring is critical.
 <img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/9a983552-7bae-4676-8b7c-390b8408bcac" />
-172
+5
 
 🖼 Image 6 — Business Recommendations
 🎯 Strategic Recommendations
@@ -91,7 +91,7 @@ Implementing these recommendations can lead to:
 💡 Stronger product strategy alignment
 🔮 More predictable revenue forecasting
 <img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/e1ab9034-531b-40ca-bd98-df827b8886a0" />
-173
+6
 
 🛠 Tools & Technologies
 Power BI, DAX (Data Analysis Expressions), Power Query, Data Modeling, Time Intelligence Functions

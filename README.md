@@ -1,106 +1,66 @@
-📊 B2B Sales Analytics Dashboard (Power BI)
-An end-to-end Power BI project analyzing B2B sales pipeline performance for a computer hardware company.
-This dashboard evaluates:
-Sales performance, Win rates, Revenue trends, Product effectiveness, Pipeline efficiency
+# B2B Sales Pipeline – Power BI Analytics  
+**Evaluating sales performance, pipeline health, and conversion trends for a hardware company**
 
-🖼 Image 1 — Project Overview (Pre-Dashboard Page)
-🔎 Project Overview
-This project analyzes B2B sales pipeline data using Power BI to:
-Evaluate sales team and agent performance
-Identify lagging sales agents
-Analyze quarter-over-quarter revenue trends
-Assess product win rates and pipeline efficiency
-Provide actionable insights to improve revenue outcomes
-<img width="1920" height="1080" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/2fab97fa-0bde-4fd2-9ee6-2e8eabe5a502" />
-1
+## Project Overview
+This project transforms a raw B2B sales pipeline into an interactive Power BI dashboard. The goal is to assess sales team performance, spot bottlenecks, track quarter‑over‑quarter trends, and deliver data‑driven recommendations to boost revenue.
 
-🖼 Image 2 — Executive Overview Dashboard
-📌 KPI Summary
-KPI	Value
-Won Revenue	10M
-Win Rate	63%
-Open Pipeline Value	3M
-QoQ Revenue Growth	39%
+## Tools & Technologies
+- **Power BI** – Data modelling, DAX measures, interactive dashboards  
+- **Power Query** – Data cleaning and transformation  
+- **Excel/CSV** – Source data
 
-📈 Insights
-Strong overall win rate (0.63)
-Healthy open pipeline supporting future revenue
-Positive quarterly revenue growth
-Revenue concentration among top-performing agents
-<img width="1920" height="1080" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/32ea752a-58c5-4ca2-af29-f250ab285997" />
-2
+## Data Quality & Preparation
+Before analysis, I resolved several data issues:
+- Removed duplicate dimension records  
+- Handled missing values for region, industry, and sales agent  
+- Standardised sales stage and region naming  
+- Excluded invalid opportunities (null or zero value)  
+- Fixed date inconsistencies between creation and close dates
 
-🖼 Image 3 — Sales Team Performance
-👥 Agent-Level Analysis
-Metrics Evaluated:
-Total Opportunities, Won Revenue, Win Rate, Average Deal Size
-Visual Highlights:
-Bubble chart reveals correlation between opportunity volume and win rate
-Some agents handle high volume but underperform on win rate
-Top performers generate disproportionate revenue contribution
-📌 Insight: Coaching low win-rate, high-volume agents could significantly improve total revenue.
-<img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/079b25e5-c9ed-4d78-b6f9-a31bc79b240e" />
-3
+## DAX Measures & Model
+I built a comprehensive measure library to power all visuals, including:
+- **Core KPIs:** Total Opportunities, Won/Lost Revenue, Win Rate, Average Deal Size  
+- **Time Intelligence:** Won Revenue QoQ, QoQ Revenue Growth %, Pipeline Created Value  
+- **Product Analysis:** Product Win Rate, Revenue Share %  
 
-🖼 Image 4 — Product & Pipeline Analysis
-🏷 Win Rate by Product
-Most products maintain ~60–65% win rate
-MG Special and GTX Pro show strongest performance
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/c6a99817-8691-4a3f-a706-f8c9afee5466" />
 
-💰 Won Revenue by Product
-Revenue Contribution:
-GTX Pro → 35%
-GTX Plus Pro → 26%
-MG Advanced → 22%
-Remaining products contribute smaller shares
-📌 Insight: Revenue concentration exists in a few flagship products.
+## Dashboard Pages & Key Insights
 
-🔄 Pipeline Stage Distribution
-Opportunities by stage:
-Won → 4K, Lost → 2K, Engaging → 2K, Prospecting → 1K
-📌 Insight: Significant drop-off between early and mid-stage pipeline.
-<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/b4e81e46-2f16-4182-b144-db0210b3038c" />
-4
+### 1. Executive Overview
+High‑level view of won revenue by quarter and top‑performing sales agents.  
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/282afbad-534b-486e-967d-e477e0e5895f" />
 
-🖼 Image 5 — Trends Dashboard
-📊 Revenue & Pipeline Trends (Year-Quarter)
-Revenue peaked at 3.09M in Q2
-Slight decline across Q3 and Q4
-Open pipeline fluctuates with revenue
+### 2. Sales Team Performance
+Detailed table ranking every sales agent by opportunities, win rate, and average deal size. Pinpoints under‑performers and stars.  
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/891bb44a-fd28-4cf0-8556-b5a27aa4548a" />
 
-📈 QoQ Revenue Growth
-Q2 Growth: +172%, Q3: -3%, Q4: -6%
+### 3. Product & Pipeline
+- **GTX Pro** and **GTX Plus Pro** dominate, together accounting for over **48% of won revenue**.  
+- The “Engaging” stage holds the most open opportunities, a key pipeline driver.  
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/eca0f909-e090-49ee-b910-e3785e0a3a23" />
 
-📌 Insight:
-Revenue growth momentum slowed after Q2 spike — pipeline monitoring is critical.
-<img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/9a983552-7bae-4676-8b7c-390b8408bcac" />
-5
+### 4. Trends
+Quarter‑over‑quarter analysis shows clear seasonality and growth patterns:
+- Won revenue peaked in **2017‑Q2**; pipelines built in earlier quarters fed this success.  
+- QoQ revenue growth spiked at nearly **5%** in one quarter, showing targeted uplift.  
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/a764c528-b8e0-44e0-890f-c04bc9725a07" />
 
-🖼 Image 6 — Business Recommendations
-🎯 Strategic Recommendations
-Focus coaching on low win-rate, high-volume sales agents
-Replicate strategies from top-performing teams across regions
-Prioritize high win-rate products for cross-sell & upsell initiatives
-Monitor pipeline creation trends to anticipate revenue performance
+## Key Takeaways
+- **Overall Win Rate:** 63% – a strong baseline across all agents.  
+- **Top Performers:** Agents like *Elease Gluck* (63% win rate, high deal size) and *James Ascencio* (66% win rate) set the benchmark.  
+- **Coaching Opportunity:** Several agents have high volume but win rates below 60%; focused coaching can lift revenue quickly.  
+- **Product Strategy:** GTX Pro family is the star; cross‑sell and upsell motions around these products will yield the highest returns.  
+- **Pipeline Health:** Open pipeline value remains robust, ensuring future quarters are well supplied.
 
-🚀 Business Impact
-Implementing these recommendations can lead to:
-📈 Increased revenue growth
-📉 Improved win rates
-🎯 Better sales agent efficiency
-💡 Stronger product strategy alignment
-🔮 More predictable revenue forecasting
-<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/e1ab9034-531b-40ca-bd98-df827b8886a0" />
-6
+## Recommendations
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/1d80c4d8-26d5-41df-b53a-d14272f73337" />
 
-🛠 Tools & Technologies
-Power BI, DAX (Data Analysis Expressions), Power Query, Data Modeling, Time Intelligence Functions
+1. **Coach low‑win‑rate, high‑volume agents** – Small improvements here deliver oversized revenue impact.  
+2. **Replicate top‑performer strategies** – Document and share the practices of agents with the highest win rates and deal sizes.  
+3. **Prioritise high‑win‑rate products** – Embed GTX Pro and GTX Plus Pro in all cross‑sell and upsell motions.  
+4. **Monitor pipeline creation trends** – Ensure enough opportunities are being generated to sustain future growth; use the Trends page as an early‑warning system.
 
-📂 Dashboard Structure
-Pre-Dashboard (Documentation & Measures), Executive Overview, Sales Team Performance, Product & Pipeline, Trends, Recommendations, Slicers
+---
 
-🧠 Key Takeaways
-Revenue is concentrated among a small number of agents and products
-Win rate optimization presents the largest opportunity
-Pipeline monitoring is critical for forecasting
-Data-driven coaching improves performance efficiency
+*The Power BI file contains 7 pages (including slicers). All supporting screenshots are in the `images/` folder.*
